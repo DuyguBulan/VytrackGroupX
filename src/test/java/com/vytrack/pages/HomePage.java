@@ -57,4 +57,8 @@ public class HomePage {
     @FindBy(xpath = "//span[.='Vehicle Contracts' and @class='title title-level-2']")
       public WebElement vehicle_contracts_submodule;
 
+    //#12.Vehicles Models submodule
+    @FindBy(xpath = "//span[normalize-space()='Vehicles Model' and contains(@class,'title title-level-2')]")
+    public WebElement vehicle_models_submodule;
+
 }
