@@ -61,4 +61,8 @@ public class HomePage {
     @FindBy(xpath = "//span[normalize-space()='Vehicles Model' and contains(@class,'title title-level-2')]")
     public WebElement vehicle_models_submodule;
 
+    //#13. calendarEventSubmodule
+    @FindBy (xpath ="//span[.='Calendar Events']")
+    public WebElement calendarEventSubmodule;
+
 }
