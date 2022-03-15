@@ -24,7 +24,7 @@ public class VehiclesPagePOM {
     public WebElement first_check_box;
 
     //one of check boxes
-    @FindBy(xpath = "(//input[@data-role='select-row-cell'])[3]")
+    @FindBy(xpath = "(//input[@data-role='select-row-cell'])[7]")
     public WebElement one_of_check_boxes;
 }
 
