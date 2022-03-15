@@ -101,6 +101,13 @@ public class BrowserUtils {
         wait.until(ExpectedConditions.invisibilityOf(element));
     }
 
+    //Create waitUntilVisibilityOfElement(WebElement element,int timeout) method
+    public static void waitUntilVisibilityOfElement(WebElement element, int timeout){
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), timeout);
+        wait.until(ExpectedConditions.visibilityOf(element));
+
+    }
+
     //Create doubleClick(WebElement element) method
 public static void doubleClick(WebElement element){
         new Actions(Driver.getDriver()).doubleClick(element).perform();
