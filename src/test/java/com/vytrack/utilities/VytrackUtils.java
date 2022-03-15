@@ -11,7 +11,7 @@ public class VytrackUtils {
 
     public static void login(String username, String password) {
         //go to website
-        Driver.getDriver().get(ConfigurationReader.getProperty("env1"));
+        Driver.getDriver().get(ConfigurationReader.getProperty("env2"));
         // pass username
         // Driver.getDriver().findElement(By.cssSelector("#prependedInput"));
         Driver.getDriver().findElement(By.id("prependedInput")).sendKeys(username);
@@ -24,7 +24,7 @@ public class VytrackUtils {
 
     public static void loginAsDriver() {
         //go to website
-        Driver.getDriver().get(ConfigurationReader.getProperty("env1"));
+        Driver.getDriver().get(ConfigurationReader.getProperty("env2"));
         // pass username
         // Driver.getDriver().findElement(By.cssSelector("#prependedInput"));
         Driver.getDriver().findElement(By.id("prependedInput")).sendKeys(ConfigurationReader.getProperty("driver_username"));
@@ -36,7 +36,7 @@ public class VytrackUtils {
 
     public static void loginAsStoreManager() {
         //go to website
-        Driver.getDriver().get(ConfigurationReader.getProperty("env1"));
+        Driver.getDriver().get(ConfigurationReader.getProperty("env2"));
         // pass username
         // Driver.getDriver().findElement(By.cssSelector("#prependedInput"));
         Driver.getDriver().findElement(By.id("prependedInput")).sendKeys(ConfigurationReader.getProperty("store_manager_username"));
@@ -48,7 +48,7 @@ public class VytrackUtils {
 
     public static void loginAsSalesManager() {
         //go to website
-        Driver.getDriver().get(ConfigurationReader.getProperty("env1"));
+        Driver.getDriver().get(ConfigurationReader.getProperty("env2"));
         // pass username
         // Driver.getDriver().findElement(By.cssSelector("#prependedInput"));
         Driver.getDriver().findElement(By.id("prependedInput")).sendKeys(ConfigurationReader.getProperty("sales_manager_username"));
