@@ -1,6 +1,7 @@
 package com.vytrack.pages;
 
 import com.vytrack.utilities.Driver;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -52,6 +53,10 @@ public class CreateCalendarEventPage {
     //#9 saveAndCloseDropdown
     @FindBy(xpath = "//a[@class='btn-success btn dropdown-toggle']")
     public WebElement saveAndCloseDropdown;
+
+    //10. repeat with contains xpath locator
+    @FindBy(xpath = "(//input[contains(@class,'recurrence-subview-control__number')])[1]")
+    public WebElement repeatEveryInputContainsXpath;
 
 
 
