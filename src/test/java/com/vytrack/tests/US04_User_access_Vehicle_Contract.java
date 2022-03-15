@@ -93,9 +93,9 @@ public class US04_User_access_Vehicle_Contract extends TestBase {
 
         //Compare expected and actual result
         String expectedNote = "You do not have permission to perform this action.";
-        String actualTitle = Driver.getDriver().findElement(By.xpath("//div[@class='message']")).getText();
+        String actualTitle = Driver.getDriver().findElement(By.xpath("//div[@class='message' and .='You do not have permission to perform this action.']")).getText();
 
-        Assert.assertEquals(expectedNote,actualTitle);
+        Assert.assertEquals(actualTitle,expectedNote);
     }
 
 
