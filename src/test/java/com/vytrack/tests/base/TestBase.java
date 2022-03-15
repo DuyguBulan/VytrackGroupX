@@ -12,7 +12,9 @@ public abstract class TestBase {
     protected HomePage homePage;
     protected VehiclesPagePOM vehiclesPagePOM;
     protected VehicleOdometerPOM vehicleOdometerPOM;
-protected CreateCalendarEventPage createCalendarEventPage;
+    protected CreateCalendarEventPage createCalendarEventPage;
+    protected CalendarEventsPage calendarEventsPage;
+
     @BeforeMethod
     public void setUp() {
         // Driver.getDriver().get(ConfigurationReader.getProperty("env1"));
@@ -22,6 +24,7 @@ protected CreateCalendarEventPage createCalendarEventPage;
         vehiclesPagePOM = new VehiclesPagePOM();
         vehicleOdometerPOM = new VehicleOdometerPOM();
         createCalendarEventPage=new CreateCalendarEventPage();
+        calendarEventsPage=new CalendarEventsPage();
 
     }
 
