@@ -23,11 +23,6 @@ public class CalendarEventsPage {
     public WebElement createCalendarEventButton;
 
 
-    //#4.selectAll
-    @FindBy (xpath =" //a[@class='save_a']" )
-    public  WebElement selectAll;
-
-
 
 
 }
