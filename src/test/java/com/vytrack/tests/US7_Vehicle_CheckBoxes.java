@@ -14,7 +14,7 @@ public class US7_Vehicle_CheckBoxes extends TestBase {
         //2- Go to: hhttps://qa2.vytrack.com/user/login
         loginPage.gotoLoginPage();
         //3-Login with "sales_manager_username" credentials
-        loginPage.login(ConfigurationReader.getProperty("sales_manager_username"),
+        loginPage.login(ConfigurationReader.getProperty("sales_manager_username1"),
                 ConfigurationReader.getProperty("sales_manager_password"));
         //4-Wait until "Dashboard" title will displayed
         BrowserUtils.waituntilTitleDisplay("Dashboard");
@@ -39,7 +39,7 @@ public class US7_Vehicle_CheckBoxes extends TestBase {
         //2- Go to: hhttps://qa2.vytrack.com/user/login
         loginPage.gotoLoginPage();
         //3-Login with "sales_manager_username" credentials
-        loginPage.login(ConfigurationReader.getProperty("sales_manager_username"),
+        loginPage.login(ConfigurationReader.getProperty("sales_manager_username1"),
                 ConfigurationReader.getProperty("sales_manager_password"));
         //4-Wait until "Dashboard" title will displayed
         BrowserUtils.waituntilTitleDisplay("Dashboard");
@@ -65,7 +65,7 @@ public class US7_Vehicle_CheckBoxes extends TestBase {
         //2- Go to: hhttps://qa2.vytrack.com/user/login
         loginPage.gotoLoginPage();
         //3-Login with "sales_manager_username" credentials
-        loginPage.login(ConfigurationReader.getProperty("sales_manager_username"),
+        loginPage.login(ConfigurationReader.getProperty("sales_manager_username1"),
                 ConfigurationReader.getProperty("sales_manager_password"));
         //4-Wait until "Dashboard" title will displayed
         BrowserUtils.waituntilTitleDisplay("Dashboard");
@@ -92,7 +92,7 @@ public class US7_Vehicle_CheckBoxes extends TestBase {
         //2- Go to: hhttps://qa2.vytrack.com/user/login
         loginPage.gotoLoginPage();
         //3-Login with "store_manager_username" credentials
-        loginPage.login(ConfigurationReader.getProperty("store_manager_username"),
+        loginPage.login(ConfigurationReader.getProperty("store_manager_username1"),
                 ConfigurationReader.getProperty("store_manager_password"));
         //4-Wait until "Dashboard" title will displayed
         BrowserUtils.waituntilTitleDisplay("Dashboard");
@@ -117,7 +117,7 @@ public class US7_Vehicle_CheckBoxes extends TestBase {
         //2- Go to: hhttps://qa2.vytrack.com/user/login
         loginPage.gotoLoginPage();
         //3-Login with "store_manager_username" credentials
-        loginPage.login(ConfigurationReader.getProperty("store_manager_username"),
+        loginPage.login(ConfigurationReader.getProperty("store_manager_username1"),
                 ConfigurationReader.getProperty("store_manager_password"));
         //4-Wait until "Dashboard" title will displayed
         BrowserUtils.waituntilTitleDisplay("Dashboard");
@@ -143,7 +143,7 @@ public class US7_Vehicle_CheckBoxes extends TestBase {
         //2- Go to: hhttps://qa2.vytrack.com/user/login
         loginPage.gotoLoginPage();
         //3-Login with "store_manager_username" credentials
-        loginPage.login(ConfigurationReader.getProperty("store_manager_username"),
+        loginPage.login(ConfigurationReader.getProperty("store_manager_username1"),
                 ConfigurationReader.getProperty("store_manager_password"));
         //4-Wait until "Dashboard" title will displayed
         BrowserUtils.waituntilTitleDisplay("Dashboard");
