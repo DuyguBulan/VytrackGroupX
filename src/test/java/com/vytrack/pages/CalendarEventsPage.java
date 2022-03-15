@@ -27,7 +27,17 @@ public class CalendarEventsPage {
     @FindBy (xpath =" //a[@class='save_a']" )
     public  WebElement selectAll;
 
+    //#5. saveAndCloseButton
+    @FindBy(xpath = "//button[normalize-space()='Save and Close']")
+    public WebElement saveAndCloseButton;
 
+    //#6 saveAndCloseDropdown
+    @FindBy(xpath = "//a[@class='btn-success btn dropdown-toggle']")
+    public WebElement saveAndCloseDropdown;
+
+    //#7. repeatCheckbox
+    @FindBy(xpath = "//input[@data-name='recurrence-repeat']")
+    public WebElement repeatCheckbox;
 
 
 }
