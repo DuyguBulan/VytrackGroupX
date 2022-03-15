@@ -33,7 +33,7 @@ public class VytrackLoginPage {
     public WebElement rememberMeText;
 
     public void gotoLoginPage(){
-        Driver.getDriver().get(ConfigurationReader.getProperty("env1"));
+        Driver.getDriver().get(ConfigurationReader.getProperty("env2"));
     }
 
     public void login(String userName,String password){
