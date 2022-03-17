@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class HomePage {
     public HomePage() {
         PageFactory.initElements(Driver.getDriver(), this);
@@ -64,5 +66,17 @@ public class HomePage {
     //#13. calendarEventSubmodule
     @FindBy (xpath ="//span[.='Calendar Events']")
     public WebElement calendarEventSubmodule;
+
+    //#14 all main modules while login as a Sales or store managers
+    @FindBy(xpath = "//span[@class='title title-level-1']")
+    public List<WebElement> mainModulesForManagers;
+
+    //#1 all main modules while login as a Driver
+    @FindBy(xpath = "//span[@class='title title-level-1']")
+    public List<WebElement> mainModulesForDrivers;
+
+
+
+
 
 }
