@@ -14,6 +14,7 @@ public abstract class TestBase {
     protected VehicleOdometerPOM vehicleOdometerPOM;
     protected CreateCalendarEventPage createCalendarEventPage;
     protected CalendarEventsPage calendarEventsPage;
+    protected PinbarPage pinbarPage;
 
     @BeforeMethod
     public void setUp() {
@@ -25,6 +26,7 @@ public abstract class TestBase {
         vehicleOdometerPOM = new VehicleOdometerPOM();
         createCalendarEventPage=new CreateCalendarEventPage();
         calendarEventsPage=new CalendarEventsPage();
+        pinbarPage = new PinbarPage();
 
     }
 

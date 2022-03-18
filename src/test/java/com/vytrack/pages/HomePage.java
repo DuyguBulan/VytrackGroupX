@@ -67,6 +67,11 @@ public class HomePage {
     @FindBy (xpath ="//span[.='Calendar Events']")
     public WebElement calendarEventSubmodule;
 
+    //14. Learn How to use this space
+    @FindBy (xpath = "//a[.='Learn how to use this space']")
+    public WebElement pinbar;
+
+
     //#14 all main modules while login as a Sales or store managers
     @FindBy(xpath = "//span[@class='title title-level-1']")
     public List<WebElement> mainModulesForManagers;
