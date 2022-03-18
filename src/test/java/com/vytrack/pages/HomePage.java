@@ -72,11 +72,11 @@ public class HomePage {
     public WebElement pinbar;
 
 
-    //#14 all main modules while login as a Sales or store managers
+    //#15 all main modules while login as a Sales or store managers
     @FindBy(xpath = "//span[@class='title title-level-1']")
     public List<WebElement> mainModulesForManagers;
 
-    //#1 all main modules while login as a Driver
+    //#16 all main modules while login as a Driver
     @FindBy(xpath = "//span[@class='title title-level-1']")
     public List<WebElement> mainModulesForDrivers;
 
