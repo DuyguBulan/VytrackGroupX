@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class US08_Error_Message_While_No_Number extends TestBase {
 
     @Test
-    public void users_see_1_by_default(){
+    public void TC1_users_see_1_by_default(){
 
         // Users go to home page
         loginPage.gotoLoginPage();
@@ -40,7 +40,7 @@ public class US08_Error_Message_While_No_Number extends TestBase {
     }
 
     @Test
-    public void users_see_an_error_message_while_field_is_cleared(){
+    public void TC2_users_see_an_error_message_while_field_is_cleared(){
 
         // Users go to home page
         loginPage.gotoLoginPage();
