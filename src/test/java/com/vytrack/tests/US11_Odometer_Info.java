@@ -14,7 +14,7 @@ public class US11_Odometer_Info extends TestBase {
         //2- Go to: hhttps://qa2.vytrack.com/user/login
         loginPage.gotoLoginPage();
         //3-Login with "sales_manager_username" credentials
-        loginPage.login(ConfigurationReader.getProperty("sales_manager_username"),
+        loginPage.login(ConfigurationReader.getProperty("sales_manager_username1"),
                 ConfigurationReader.getProperty("sales_manager_password"));
         //4-Wait until "Dashboard" title will displayed
         BrowserUtils.waituntilTitleDisplay("Dashboard");
@@ -44,7 +44,7 @@ public class US11_Odometer_Info extends TestBase {
         loginPage.gotoLoginPage();
         //3-Login with "driver_username" credentials
         loginPage
-                .login(ConfigurationReader.getProperty("driver_username"),
+                .login(ConfigurationReader.getProperty("driver_username1"),
                         ConfigurationReader.getProperty("driver_password"));
 
         //4-Wait until "Dashboard" title will displayed
@@ -71,7 +71,7 @@ public class US11_Odometer_Info extends TestBase {
         loginPage.gotoLoginPage();
         //3-Login with "driver_username" credentials
         loginPage
-                .login(ConfigurationReader.getProperty("driver_username"),
+                .login(ConfigurationReader.getProperty("driver_username1"),
                         ConfigurationReader.getProperty("driver_password"));
         //4-Wait until "Dashboard" title will displayed
         BrowserUtils.waituntilTitleDisplay("Dashboard");
