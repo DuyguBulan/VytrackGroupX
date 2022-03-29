@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class VehiclesPagePOM {
     public VehiclesPagePOM(){
 
@@ -26,5 +28,9 @@ public class VehiclesPagePOM {
     //one of check boxes
     @FindBy(xpath = "(//input[@data-role='select-row-cell'])[7]")
     public WebElement one_of_check_boxes;
+
+    // all three icon when hover
+    @FindBy(xpath = "(//div[@class='dropdown'])[1]//ul[@class='nav nav-pills icons-holder launchers-list']/li/a")
+    public List<WebElement> icons;
 }
 
