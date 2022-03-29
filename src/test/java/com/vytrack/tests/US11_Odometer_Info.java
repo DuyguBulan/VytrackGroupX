@@ -92,9 +92,6 @@ public class US11_Odometer_Info extends TestBase {
         Assert.assertEquals(expectedResult,actualResult);
 
 
-
     }
-
-
 
 }
